@@ -119,8 +119,8 @@ class opf_f {
         magazines[] = {EAST_GLRIFLE_MAG,EAST_GLRIFLE_MAG_HE,EAST_GLRIFLE_MAG_SMOKE,EAST_GLRIFLE_MAG_FLARE,EAST_PISTOL_MAG,EAST_GRENADE,EAST_SMOKE_WHITE};
         handguns[] = {EAST_PISTOL}; /// randomized
         linkedItems[] += {"ItemGPS","Binocular"};
-        backpackItems[] += {"ACE_key_east","ACRE_PRC117F"};
-        items[] = {"ACE_MapTools", "ACRE_PRC148"};
+        backpackItems[] = {"MEDICAL_LEADER","ACE_key_east","ACRE_PRC117F"};
+        items[] = {"ACE_MapTools","ACRE_PRC343","ACRE_PRC148"};
     };
 
     class O_soldier_SL_F: O_Officer_F { // SL
