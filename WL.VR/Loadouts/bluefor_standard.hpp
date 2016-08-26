@@ -125,14 +125,14 @@ class blu_f {
         headgear[] = {"H_HelmetSpecB_blk"}; /// randomized
         magazines[] = {WEST_GLRIFLE_MAG,WEST_GLRIFLE_MAG_HE,WEST_GLRIFLE_MAG_SMOKE,WEST_GLRIFLE_MAG_FLARE,WEST_PISTOL_MAG,WEST_GRENADE,WEST_SMOKE_WHITE,WEST_SMOKE_GREEN};
         handguns[] = {WEST_PISTOL}; /// randomized
-        backpackItems[] += {"ACE_key_west", "ACRE_PRC117F"};
+        backpackItems[] = {"MEDICAL_LEADER","ACE_key_west","ACRE_PRC117F"};
         linkedItems[] = {"ItemMap","ItemCompass","ItemWatch","NVGoggles","ItemGPS","ACE_Vector"};
-        items[] = {"ACE_MapTools","ACRE_PRC148"};
+        items[] = {"ACE_MapTools","ACRE_PRC148","ACRE_PRC343"};
     };
 
     class B_Soldier_SL_F: B_Officer_F {// SL
         linkedItems[] = {"ItemMap","ItemCompass","ItemWatch","NVGoggles","ItemGPS","Binocular"};
-        items[] = {"ACE_MapTools","ACRE_PRC148", "ACRE_PRC343"};
+        items[] = {"ACE_MapTools","ACRE_PRC148","ACRE_PRC343"};
         backpackItems[] = {"MEDICAL_LEADER","ACE_IR_Strobe_item"};
     };
 
