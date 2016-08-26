@@ -71,7 +71,7 @@ class ace_medical_playerDamageThreshold
 {
 	category = "$STR_ace_medical_Category_Medical";
 	typeName = "SCALAR";
-	value = 1.5;
+	value = 2.5;
 };
 class ace_medical_AIDamageThreshold
 {
@@ -96,7 +96,7 @@ class ace_medical_preventInstaDeath
 {
 	category = "$STR_ace_medical_Category_Medical";
 	typeName = "BOOL";
-	value = 1;
+	value = 0;
 };
 class ace_medical_enableRevive
 {
