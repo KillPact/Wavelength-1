@@ -119,8 +119,8 @@ class ind_f {
         handguns[] = {IND_PISTOL}; /// randomized
         linkedItems[] += {"ItemGPS","Binocular"};
         attachments[] = {"optic_ACO_grn"};
-        backpackItems[] += {"ACE_key_indp","ACRE_PRC117F"};
-        items[] = {"ACE_MapTools","ACRE_PRC148"};
+        backpackItems[] = {"MEDICAL_LEADER","ACE_key_indp","ACRE_PRC117F"};
+        items[] = {"ACE_MapTools","ACRE_PRC343","ACRE_PRC148"};
     };
 
     class I_Soldier_SL_F: I_Officer_F {// SL
